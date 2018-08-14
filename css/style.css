@@ -58,6 +58,7 @@ body {
     font-style: italic;
     line-height: 14px;
     margin-left: 20px;
+    opacity: .75;
     padding: 10px;
     position: relative;
     top: 80%;
