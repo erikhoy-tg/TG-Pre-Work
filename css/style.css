@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Glegoo";
+  src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 400;
@@ -102,10 +107,12 @@ a.home {
 .banner p {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  font-weight: bold;
-  line-height: 1.4;
   padding: 10px;
   color: #ffffff;
+  font-family: "Glegoo";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
 }
 
 /* Editorial Sections */
