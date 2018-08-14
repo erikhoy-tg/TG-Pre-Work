@@ -1,8 +1,9 @@
 .grid {
   border: 2px blue solid;
-  display: grid;
   width: 400px;
   height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
 }
 
 .box {
