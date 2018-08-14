@@ -56,8 +56,8 @@ body {
     color: red;
     font-size: 14px;
     line-height: 48px;
-    padding: 20px 30px;
     text-align: center;
+    padding: 20px 30px;
   }
   
   h3 {
@@ -71,6 +71,7 @@ body {
     color: grey;
     font-size: 16px;
     line-height: 48px;
+    padding: 10px 20px;
   }
   
   .pull-quote {
