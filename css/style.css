@@ -47,6 +47,7 @@ html {
   .header {
     font-family: "Arial", sans-serif;
     font-size: 14px;
+    font-weight: 900;
     line-height: 1.25;
     background-color: #fff;
     position: fixed;
