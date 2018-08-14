@@ -30,7 +30,8 @@ body {
   }
   
   #banner .content h1 {
-    border: 3px white solid;
+    border: solid 3px white;
+    border-radius: 5px;
     position: relative;
     top: 50px;
     width: 400px;
