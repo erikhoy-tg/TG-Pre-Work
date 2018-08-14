@@ -97,6 +97,7 @@ body {
   
   .answer {
     border: 1px solid #466995;
+    display: inline-block;
     margin: 20px;
   }
   
