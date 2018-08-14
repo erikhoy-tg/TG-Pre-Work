@@ -7,4 +7,4 @@ h1 { color: maroon; }
 .capitalize { text-transform: capitalize; }
 h2.destination { font-family: cursive; }
 .description h5 { color: teal; }
-h5 { color: rebeccapurple; }
+h5 { color: rebeccapurple !important; }
