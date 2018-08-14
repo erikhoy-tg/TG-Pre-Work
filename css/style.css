@@ -129,6 +129,14 @@ html {
     color: #4D00FF;
     font-size: 100px;
   }
+
+  .garamond .sample .text {
+    font-family: Garamond, serif;
+  }
+  
+  .helvetica .sample .text {
+    font-family: Helvetica, sans-serif;
+  }
   
   /* Add styles for the Garamond font here */
   
