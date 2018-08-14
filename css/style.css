@@ -90,6 +90,7 @@ body {
   }
   
   .question {
+    clear: left;
     position: relative;
     text-align: center;
     top: 40px;
