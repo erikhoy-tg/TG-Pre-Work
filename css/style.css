@@ -39,9 +39,12 @@ body {
   }
   
   #main {
+    height: 1000px;
+    margin: 0 auto;
+    overflow: scroll;
     padding: 40px;
     text-align: center;
-    margin: 0 auto;
+    width: 400px;
   }
   
   h1 {
@@ -73,17 +76,12 @@ body {
     font-size: 16px;
     line-height: 48px;
     margin-top: 60px;
-    max-height: 300px;
-    min-height: 200px;
-    max-width: 800px;
-    min-width: 200px;
     padding: 10px 20px;
-  
   }
   
   .pull-quote {
-    width: 350px;
     margin: 0 auto;
+    width: 400px;
   }
   
   .byline {
