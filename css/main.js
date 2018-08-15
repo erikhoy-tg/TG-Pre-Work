@@ -1,18 +1,27 @@
-let person = {
-    _name: 'Lu Xun',
-    _age: 137,
-      set age(age) {
-      if(typeof age === 'number') {
-        this._age = age;
-      } else {
-        return 'Invalid input';
-      }
-      },
-    get age() {
-      console.log(`${this._name} is ${this._age} years old.`);
+class Dog {
+    constructor(name) {
+      this._name = name;
+      this._behavior = 0;
     }
-  };
   
-  person.age = 'Thirty-nine';
-  person.age = 39;
-  console.log(person._age);
+    get name() {
+      return this._name;
+    }
+    get behavior() {
+      return this._behavior;
+    }   
+  
+    incrementBehavior() {
+      this._behavior ++;
+    }
+} 
+const halley = new Dog('Halley');
+  
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
+      
+halley.incrementBehavior(); // Add one to behavior
+  
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
+  
