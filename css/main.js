@@ -1,9 +1,8 @@
-// Set the variable below to a number
-let esFivePercentageSupport;
+var pasta = "Spaghetti"; // ES5 syntax
 
-esFivePercentageSupport = 95.47
+var meat = "Pancetta"; // ES6 syntax
 
-// Set the variable below to a number
-let esSixTemplateLiterals;
+var sauce = "Eggs and cheese"; // ES6 syntax
 
-esSixTemplateLiterals = 87.61;
+// Template literals, like the one below, were introduced in ES6
+var carbonara = 'You can make carbonara with ' + pasta + ', ' + meat + ', and a sauce made with ' + sauce + '.';
