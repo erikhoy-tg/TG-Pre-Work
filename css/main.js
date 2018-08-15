@@ -6,6 +6,9 @@ let person = {
     hobbies: ['making art', 'skateboarding'],
     sayHello: function() {
       return 'Hello, there!';
+    },
+    sayGoodbye() { 
+        return 'Goodbye!';
     }
   };
   
