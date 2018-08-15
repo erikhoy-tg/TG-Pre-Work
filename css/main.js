@@ -5,7 +5,7 @@ let person = {
     weekAlarm: 'Alarm set to 7am',
     hobbies: ['making art', 'skateboarding'],
     sayHello: function() {
-      return 'Hello, there!';
+      return `Hello, my name is ${this.name}`;
     },
     sayGoodbye() { 
         return 'Goodbye!';
