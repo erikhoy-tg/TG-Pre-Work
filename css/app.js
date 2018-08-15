@@ -1,6 +1,16 @@
-let isSoccerFan = true;
-if(isSoccerFan) {
-  console.log('Goal!');
+let wordCount = 100;
+
+if (wordCount) {
+  console.log("Great! You've started your work!");
 } else {
-  console.log('No goal!');
+  console.log('Better get to work!');
+}
+
+
+let favoritePhrase = 'Doubt everything';
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
 }
