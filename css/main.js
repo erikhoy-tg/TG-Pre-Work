@@ -15,6 +15,7 @@ let person = {
     alarm = 'weekAlarm';
   }
   
+  person.hobbies = ['making stuff'];
   console.log(person['name']);
   console.log(person['age']);
   console.log(person[alarm]);
