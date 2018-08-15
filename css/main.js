@@ -1,9 +1,13 @@
-let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
 
-groceryList.shift();
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
-groceryList.unshift('popcorn');
-console.log(groceryList);
+condiments.push('Tabasco');
+console.log(condiments);
 
-console.log(groceryList.slice(1, 4));
-console.log(groceryList);
+condiments = ['Tabasco'];
+console.log(condiments);
+
+console.log(utensils.pop());
+
+utensils = ['Fork'];
