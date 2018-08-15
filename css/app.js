@@ -1,5 +1,6 @@
-let moonPhase = 'solar eclipse';
-if(moonPhase === 'full') {
+let moonPhase = 'full';
+let isFoggyNight = false;
+if(moonPhase === 'full' || isFoggyNight) {
   console.log('Howl');
 } else if(moonPhase === 'mostly full') {
   console.log('Arms and legs are getting hairier.');
