@@ -7,3 +7,11 @@ console.log(newYearsResolutions[3]);
 newYearsResolutions[1] = 'Learn a new language';
 
 console.log(newYearsResolutions.length);
+
+newYearsResolutions.push('Fly a kite', 'Skateboard more');
+
+console.log(newYearsResolutions);
+
+newYearsResolutions.pop();
+
+console.log(newYearsResolutions);
