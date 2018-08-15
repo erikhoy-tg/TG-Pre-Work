@@ -15,6 +15,7 @@ main {
   justify-items: center;
   margin-top: 44px;
   grid-auto-rows: 500px;
+  grid-auto-flow: column;
 }
 
 h2 {
