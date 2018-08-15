@@ -5,11 +5,13 @@ header, footer {
 }
 
 main {
+  align-content: center;
   align-items: stretch;
   display: grid;
   grid-template-columns: 250px 250px;
   grid-template-rows: repeat(3, 450px);
   grid-gap: 20px;
+  height: 1600px;
   justify-content: center;
   justify-items: center;
   margin-top: 44px;
