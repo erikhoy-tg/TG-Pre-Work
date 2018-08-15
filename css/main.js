@@ -1,5 +1,10 @@
-let vacationSpots = ['Philadelphia', 'New York City', 'Los Angeles'];
+let myPlaces = ['Philadelphia', 'Mexico City', 'Puerto Rico'];
+let friendPlaces = ['Philadelphia', 'The Moon', 'Denmark'];
 
-for (let vacationSpotIndex=vacationSpots.length-1; vacationSpotIndex>=0; vacationSpotIndex--) {
-  console.log(`I would love to visit ${vacationSpots[vacationSpotIndex]}`);
+for(let myPlacesIndex=0; myPlacesIndex<myPlaces.length; myPlacesIndex++) {
+  for(let friendPlacesIndex=0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    if(myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(myPlaces[myPlacesIndex]);
+    }
+  }
 }
